@@ -1,0 +1,103 @@
+*{
+  font-size: 13px;
+}
+.cardcontent img{
+  width: 90%;
+  height: 200px;
+}
+.cardcontent {
+  border-radius: 20px;
+  margin: 3px;
+  width: 350px;
+  height: 500px;
+  border: 3px solid gray;
+  overflow: auto;
+}
+.all{
+  margin-top: 50px ;
+  box-shadow: 5px 5px 5px 5px black;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  margin-left: 50px;
+  float: left;
+  box-sizing: border-box;
+  border-radius: 20px;
+
+}
+.btnn{
+  display: flex;
+  border-radius: 20px;
+  border: none;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* margin-top: 30px;   */
+  width: 25%;
+  height: 30px;
+  margin: auto;
+  background-color: rgb(0, 0, 255);
+  color: white;
+
+  
+}
+.btnn:hover{
+  background-color: rgb(89, 89, 250);
+}
+.cart{
+  /* width: fit-content; */
+  text-align: center;
+  font-size: 90px;
+ background-color: rgb(211, 33, 33);
+ width: 100%;
+}
+.upbtn{
+  width: 200px;
+  height: 30px;
+  border: none;
+  background-color: gray;
+  font-size: 20px;
+  position: absolute ;
+
+}
+.red{
+  color: red;
+} 
+.blue{
+  color: blue;
+} 
+.NavBar{
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+}
+.NavBar a{
+  font-size: 30px;
+  width: 200px;
+  margin-left: 10px;
+}
+.NavBar .SearchBox{
+    width: 300px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: rgb(196, 197, 209);
+}
+.Scroll{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  right: 0;
+  bottom: 0 ;
+  display: none;
+}
+.Scroll h2{
+  margin: 8px;
+}
