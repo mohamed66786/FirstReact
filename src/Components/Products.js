@@ -26,6 +26,7 @@ import  produc  from './Date';
 
 
 const AllData=produc.map((data)=>{
+  
       return (
         <div key={data.id} className="all" >
           <div className="cardcontent" >
@@ -37,7 +38,9 @@ const AllData=produc.map((data)=>{
           </div>
         </div>
       )
-})
+}
+
+)
 const Products = () => {
   // const [state,setstate]=useState(0)
   //   function handleclikc(){
