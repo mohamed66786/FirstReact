@@ -10,10 +10,11 @@ import SortedProducts from './Components/SortedProducts';
 const App = () => {
   return (
     <div>
+    <NavBar/>
     <Routes>
-      <Route path='/' element={ <><NavBar/>  <Products/>  </>   }   />
-      <Route path='/sort' element={ <>  <NavBar/>  <SortedProducts/></>}/>
-      <Route path='/buy' element={ <>  <NavBar/>  <Buy/></>}/>
+      <Route path='/' element={   <Products/>    }   />
+      <Route path='/sort' element={     <SortedProducts/>}/>
+      <Route path='/buy' element={     <Buy/>}/>
 
     </Routes>
    
